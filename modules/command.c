@@ -29,7 +29,7 @@ void change_directory(char** argv){
 }
 
 Pointer mem_allocate(size_t size){
-    Pointer array = calloc(1, size);    // calloc to initialize the values to NULL
+    Pointer array = calloc(1, size);    // calloc to initialize the values to 0
     return array;
 }
 
