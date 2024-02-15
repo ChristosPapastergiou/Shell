@@ -2,30 +2,15 @@
 
 Implementation of a Shell in C
 
-A basic implementation of a shell. The goal of this task is to familiarize you with 
-the creation and management of processes and files and signals, writing a simple mysh
-shell (my simple shell) in a Linux environment and in the C programming language.
+A basic implementation of a shell. The goal of this task is to familiarize you with the creation and management of processes and files and signals, 
+writing a simple mysh shell (my simple shell) in a Linux environment and in the C programming language.
 
---------------------------------
-How to compile and run
---------------------------------
+# Compilation & Run
 
     compile : make
     run     : ./mysh
-    
-Support : 
-- Aliases
-- Wild characters
-- Pipe
-- Saved history
-- Redirections
-- Signal handling
-- Background processes
-- Simple and basic bash commands
           
---------------------------------
-Support meanings
---------------------------------
+# Support
 
 - Alias             : Can create aliases to represent a command with a name
 - Wild characters   : Can search files using wild characters and the matched file will show
@@ -36,9 +21,7 @@ Support meanings
 - Background        : Can run some processes on the background and the same time foreground
 - Simple commands   : All the basic commands of the bash (ls, cat etc...)
 
---------------------------------
-Command examples
---------------------------------
+# Command examples
 
 - Alias :          
     - To create an alias : createalias [name of alias] [name of command]
