@@ -2,7 +2,7 @@
 
 Implementation of a Shell in C
 
-A basic implementation of a shell. The goal of this task is to familiarize you with the creation and management of processes and files and signals, 
+The goal of this task is to familiarize you with the creation and management of processes and files and signals, 
 writing a simple mysh shell (my simple shell) in a Linux environment and in the C programming language.
 
 # Compilation & Run
